@@ -1,17 +1,9 @@
 
 
-def buscariguales(filas,valor): 
-    c=0
-    for valores in filas:
-        if valores == valor: 
-            c =c+1
-    return c
-
-def validarFila(filas):
-    for i in range (len (filas)):
-            c = buscariguales(filas,filas[i])
-            if c>1: 
-                return False
+def validarFila(posreinas):
+    for i in range(len(posreinas)):
+        if posreinas.count(i) > 1:
+            return False
     return True
 
 def validarDiagonal(posreinas):
