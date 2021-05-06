@@ -1,5 +1,5 @@
 
-
+####
 def validarFila(posreinas):
     for i in range(len(posreinas)):
         if posreinas.count(i) > 1:
