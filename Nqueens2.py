@@ -21,6 +21,7 @@ def validarDiagonal(posreinas):
 def validarReinas(posreinas):
     return (validarFila(posreinas)  and validarDiagonal(posreinas))
 #carri gil de mierdaaaaa
+#carri gil demierda de nuevo
 print (validarReinas([4, 2, 7, 3, 6, 8, 5, 1]))
 print (validarReinas([2, 5, 7, 4, 1, 8, 6, 3]))
 print (validarReinas([5, 3, 1, 4, 2, 8, 6, 3]))
